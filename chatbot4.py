@@ -69,8 +69,6 @@ with st.sidebar:
         clear_history(st.session_state.user_id)
         st.session_state.chat_history = []
         st.rerun()
-    st.markdown("---")
-    st.caption(f"Bot: {BOT_NAME} | Creator: {CREATOR_NAME}")
 
 # --- MAIN TITLE & WELCOME ---
 st.title(f"🤖 {BOT_NAME} - Your Personal AI")
