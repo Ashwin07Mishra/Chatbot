@@ -91,6 +91,8 @@ def nickname_reply(user_input):
         return "Aree bade Bhaiya! Kaisan baa😎"
     if any(n in msg for n in ["shreyash", "yash"]):
         return "What's up, Mah Lil Nig! 😏 Bucchi ko Bj"
+    if any(n in msg for n in ["Aashi", "ashi","Vaishnavi"]):
+        return "zyada smart mat ban 1 saal 11 mahine 5 din badi hai bass  😏 "
     return None
 
 
